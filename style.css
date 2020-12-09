@@ -1,0 +1,181 @@
+/*===================BODY=======================*/
+
+body{
+     margin     : 0;
+     font-family: cursive;
+}
+P{
+text-align: center;
+}
+h1{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+/*===================HEADER=======================*/
+
+#header{
+      position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 500;
+      width   :100%;
+      height  :80px;
+      background-repeat: repeat-x;
+    background-color:white;
+}
+
+#header img{
+      display: block;
+      margin : auto;
+      height : 70%;
+      padding-top: 15px; 
+}
+/*===================TAB-TOP=======================*/
+
+#tabs-top{
+      position: fixed;
+      top     : 80px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color: black;
+}
+
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 33%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px;
+}
+/*===================MAIN-HOME=======================*/
+#main-home{
+       margin-top: 120px;
+}
+  /*===================TABS-BOTTOM=======================*/  
+    
+    #tabs-bottom{
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color:black;
+}
+
+#tabs-bottom a{
+     float : left;
+     display : block;
+     width : 50%;
+     height : 35px;
+     font-weight : 700;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : 10px;
+}
+
+
+/*===================FORM=======================*/
+
+form{
+    text-align: center;
+}
+/*===================About=======================*/
+
+#about{
+padding-left:40px;
+    padding-top:150px;
+}
+
+/*===================MOVIES=======================*/
+#movies{
+    padding-left: 20px;
+    padding-top: 100px;
+}
+/*===================SHOPS=======================*/
+#shops{
+   padding-top:100px;
+    font-family: cursive;
+}
+/*===================RESTURANTS=======================*/
+#resturants{
+   padding-top:100px;
+    font-family: cursive;
+    
+}
+
+ /*===================CONTACT=======================*/
+#contacttable{
+    padding-top: 140px;
+}
+#contactpage{
+    background-image: url(images/contact.jpg);
+}
+
+/*===================Map=======================*/
+#Map{
+    padding-top: 150px;
+}
+
+/*===================BOXES=======================*/
+#times{
+  background-color: white;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;   
+}
+
+#timestable{
+    padding-left: 400px;
+}
+
+#contacttable{
+        padding-left: 400px;
+
+}
+
+#contact{
+      background-color: white;
+  width: 350px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;  
+}
+
+#electronics{
+     background-color: white;
+  width: 350px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;  
+}
+#electronicstable{
+    padding-left: 400px;
+    padding-top: 150px;
+}
+#casttable{
+    padding-left: 370px;
+}
+
+#aboutbox{
+    padding-top: 110px;
+     padding-left: 400px;
+}
+#cloths{
+    padding-top: 170px;
+    padding-left: 400px;
+}
